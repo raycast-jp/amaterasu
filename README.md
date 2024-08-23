@@ -1,6 +1,8 @@
 # amaterasu
 
 amaterasu: Your Wish, Granted - Automate Your Raycast Workflows with Natural Language
+it’s a bridge between cutting-edge AI and everyday workflow automation. 
+By combining the power of GraphAI with the simplicity of Raycast, Amaterasu ensures that your wishes are granted, swiftly and effectively.
 
 ## setup
 
