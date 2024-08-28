@@ -19,12 +19,8 @@ on:
         description: 'CLI Version (optional, eg. "1.0.0")'
         required: false
   pull_request:
-    paths:
-      - "/**"
     branches: [main, master]
   push:
-    paths:
-      - "/**"
     branches: [main, master]
 
 jobs:
