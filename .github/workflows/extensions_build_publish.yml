@@ -40,20 +40,6 @@ jobs:
           path: github_utils
           sparse-checkout: |
             .github
-      # This makes sure that the problems found while validating the extensions are shown in the PR diff
-      - name: Register Problem Matcher for Ray CLI
-        run: echo "##[add-matcher]github_utils/.github/ray.matcher.json"
-      - name: Generate 'allow_owners_only_for_extensions'
-        id: allow_owners_only_for_extensions
-        run: |
-          file_path="${{ github.workspace }}/github_utils/.github/public_raycast_extensions.txt"
-          if [[ -f "$file_path" ]]; then
-            echo "value<<EOF" >> "$GITHUB_OUTPUT"
-            while IFS= read -r line; do
-              echo "$line" >> "$GITHUB_OUTPUT"
-            done < "$file_path"
-            echo "EOF" >> "$GITHUB_OUTPUT"
-          fi
       - name: Cleanup github_utils
         run: |
           rm -rf ${{ github.workspace }}/github_utils
