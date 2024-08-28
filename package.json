@@ -51,14 +51,14 @@
       "title": "slackToken",
       "description": "Slack secure token",
       "type": "textfield",
-      "required": false
+      "required": true
     },
     {
       "name": "slackChannel",
       "title": "slackChannel",
       "description": "Slack channel you post",
       "type": "textfield",
-      "required": false
+      "required": true
     },
     {
       "name": "notionToken",
