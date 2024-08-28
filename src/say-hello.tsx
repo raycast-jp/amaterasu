@@ -29,6 +29,7 @@ function TestAction() {
 
     const message = values.message;
     const web = new WebClient(token);
+    console.log("testtesttest");
 
     await web.chat.postMessage({
       text: message,
