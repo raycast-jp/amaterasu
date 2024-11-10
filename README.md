@@ -17,3 +17,6 @@ npm i
 ## origin
 The name “amaterasu” is derived from Amaterasu Omikami, the Shinto goddess of the sun and the universe, who is believed to grant the wishes of her followers.
 Similarly, this extension grants the “wishes” of users by automating their workflows effortlessly.
+
+## referebce
+[amaterasu core prototype](https://github.com/receptron/graphai/pull/748/files)
