@@ -70,13 +70,19 @@
     }
   ],
   "dependencies": {
+    "@graphai/agent_filters": "^0.0.8",
+    "@graphai/agents": "^0.1.6",
+    "@graphai/llm_agents": "^0.1.2",
+    "@graphai/slack_agent": "^0.0.2",
     "@notionhq/client": "^2.2.15",
     "@raycast/api": "^1.81.2",
     "@raycast/utils": "^1.16.3",
+    "@receptron/test_utils": "^0.0.8",
     "@slack/web-api": "^7.3.4",
     "@tryfabric/martian": "^1.2.4",
     "date-fns": "^3.6.0",
-    "graphai": "^0.5.7",
+    "dotenv": "^16.4.5",
+    "graphai": "^0.5.19",
     "notion-to-md": "^3.1.1"
   },
   "devDependencies": {
